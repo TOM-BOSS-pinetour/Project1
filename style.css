@@ -1,0 +1,552 @@
+.Inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+.monts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Interw500 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hanuman {
+  font-family: "Hanuman", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.page1 {
+  background-image: url(/backg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 33px;
+}
+.header1 {
+  gap: 24px;
+  height: 22px;
+  width: 100px;
+  color: white;
+  font-size: 24px;
+}
+.language {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+}
+.x {
+  margin: 0;
+}
+
+.page2 {
+  height: 64.68vh;
+}
+.backg2 {
+  background-image: url(/Location\ image.png);
+  height: 430px;
+}
+.imgs1 {
+  border-radius: 5%;
+  width: 275.49px;
+  height: 370px;
+  flex-shrink: 0;
+  gap: 5px;
+  background-image: url(/1.png);
+  background-size: cover;
+}
+.imgs2 {
+  border-radius: 5%;
+  width: 275.49px;
+  height: 370px;
+  flex-shrink: 0;
+  gap: 5px;
+  background-image: url(/2.png);
+  background-size: cover;
+}
+.imgs3 {
+  border-radius: 5%;
+  width: 275.49px;
+  height: 370px;
+  flex-shrink: 0;
+  gap: 5px;
+  background-image: url(/3.png);
+  background-size: cover;
+}
+.imgs4 {
+  border-radius: 5%;
+  width: 275.49px;
+  height: 370px;
+  flex-shrink: 0;
+  gap: 5px;
+  background-image: url(/4.png);
+  background-size: cover;
+}
+.places {
+  font-size: 40px;
+  color: rgba(253, 253, 254, 0.8);
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.page3b {
+  background-image: url(/page3backg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.DoAG {
+  font-size: 42px;
+  padding-top: 108px;
+  margin: 0;
+}
+.DoAG2 {
+  font-size: 30px;
+  height: 24px;
+  width: 1442;
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.placesbutton {
+  height: 112px;
+  width: 513px;
+}
+.destination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 640px;
+  width: 1200px;
+  background-color: transparent;
+}
+.destinations {
+  height: 640px;
+  width: 513px;
+  background-color: transparent;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.dess {
+  height: 640px;
+  width: 647px;
+  background-color: transparent;
+}
+.destin {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 200px;
+}
+.right-destin {
+  width: 1000px;
+}
+
+.destin1 {
+  background-color: rgba(247, 246, 243, 1);
+}
+
+.destin2 {
+  background-color: rgba(139, 184, 193, 0.8);
+}
+.destin3 {
+  background-color: rgba(170, 216, 215, 0.8);
+}
+.destin4 {
+  background-color: rgba(139, 192, 189, 0.8);
+}
+.destin5 {
+  background-color: rgba(151, 204, 224, 0.8);
+}
+.pin {
+  display: flex;
+  font-size: 24px;
+  margin: 0;
+}
+.placetag {
+  display: flex;
+  font-size: 12px;
+  margin: 0;
+  display: flex;
+}
+.tags {
+  display: flex;
+  width: 94px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.days {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: white;
+}
+.dayTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.dayss {
+  display: flex;
+  justify-content: space-between;
+  width: 513px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100px;
+  border-radius: 120px;
+}
+.pin1 {
+  position: absolute;
+  left: 1155px;
+  top: 150px;
+  width: 56px;
+  height: 56px;
+}
+.pin2 {
+  position: absolute;
+  left: 1780px;
+  top: 480px;
+  width: 56px;
+  height: 56px;
+}
+.pin3 {
+  position: absolute;
+  left: 1480px;
+  top: 280px;
+  width: 56px;
+  height: 56px;
+}
+.pin4 {
+  position: absolute;
+  left: 1210px;
+  top: 450px;
+  width: 56px;
+  height: 56px;
+}
+.pin5 {
+  position: absolute;
+  left: 1469px;
+  top: 848px;
+  width: 56px;
+  height: 56px;
+}
+
+.sukhee {
+  position: absolute;
+  top: 150px;
+  right: 500px;
+  width: 245px;
+  height: 245px;
+  display: none;
+}
+.destin1:hover ~ .sukhee {
+  display: block;
+  border: 20px;
+  border-color: aqua;
+}
+.destin1:hover {
+  border: 4px solid white;
+}
+.hiid {
+  display: none;
+  position: absolute;
+  top: -50px;
+  right: 800px;
+  width: 245px;
+  height: 245px;
+}
+.destin2:hover ~ .hiid {
+  display: block;
+}
+.destin2:hover {
+  border: 4px solid white;
+}
+
+.togoo {
+  display: none;
+  position: absolute;
+  top: 150px;
+  right: 1080px;
+  width: 245px;
+  height: 245px;
+}
+.destin3:hover ~ .togoo {
+  display: block;
+}
+.destin3:hover {
+  border: 4px solid white;
+}
+.terkh {
+  display: none;
+  position: absolute;
+  top: -150px;
+  right: 1100px;
+  width: 245px;
+  height: 245px;
+}
+.destin4:hover ~ .terkh {
+  display: block;
+}
+.destin4:hover {
+  border: 4px solid white;
+}
+.Khuvsgul {
+  display: none;
+  position: absolute;
+  top: -120px;
+  right: 850px;
+  width: 245px;
+  height: 245px;
+}
+.destin5:hover ~ .Khuvsgul {
+  display: block;
+}
+.destin5:hover {
+  border: 4px solid white;
+}
+
+.section4 {
+  background-image: url(/section4-background-img.png);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.section4-header1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 40px;
+}
+.section4-header2 {
+  display: flex;
+  color: rgba(24, 24, 27, 0.7);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.sec4-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 204px;
+  gap: 24px;
+}
+.sec4-price1 {
+  display: flex;
+  width: 384px;
+  height: 527px;
+  padding: var(--0-px-unit-0, 0);
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(250, 251, 252, 1);
+  border-radius: 40px;
+}
+.sec4-price2 {
+  display: flex;
+  width: 384px;
+  height: 527px;
+  padding: var(--0-px-unit-0, 0);
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(250, 251, 252, 1);
+  border-radius: 40px;
+}
+.sec4-price3 {
+  display: flex;
+  width: 384px;
+  height: 527px;
+  padding: var(--0-px-unit-0, 0);
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(250, 251, 252, 1);
+  border-radius: 40px;
+}
+.price1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 24px;
+  padding-left: 24px;
+  align-items: center;
+}
+.heart-icon {
+  height: 36px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+}
+.budget-title {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: normal;
+  padding-left: 16px;
+}
+.budgets {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  height: 375px;
+  border: 2px solid transparent;
+  gap: 32px;
+  margin: 0;
+}
+.price1-1 {
+  font-size: 40px;
+  color: #303030;
+  margin: 0;
+}
+.price1-2 {
+  color: #919191;
+  font-family: Inter;
+  font-size: 16px;
+  margin: 0;
+}
+.price1-3 {
+  padding-left: 40px;
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 32px;
+}
+.check-icon {
+  width: 20px;
+  height: 20px;
+}
+.checks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 16px;
+}
+.papa {
+  padding-left: 22px;
+  padding-top: 24px;
+  margin: 0;
+}
+.select-package {
+  width: 336px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 35px;
+  background: #a4d1e2;
+  margin-top: 40px;
+}
+.select-package-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+}
+.popular {
+  width: 69px;
+  height: 19px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #6972b5;
+  color: #fafbfc;
+  font-family: Interw500;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  text-justify: center;
+}
+.fb-ig-backg {
+  width: 127px;
+  height: 24px;
+  border-radius: 40px;
+  background: #fafbfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fb-ig {
+  width: 24px;
+  height: 24px;
+}
+.fb-ig-text {
+  color: #6972b5;
+  text-align: center;
+  font-family: monts;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.end-logo {
+  width: 101px;
+  height: 35px;
+  flex-shrink: 0;
+  padding-right: 120px;
+}
+.fb-ig-flex {
+  display: flex;
+  flex-direction: row;
+  padding-left: 120px;
+  gap: 20px;
+}
+.social-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+}
