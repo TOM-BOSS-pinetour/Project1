@@ -460,6 +460,7 @@
   font-size: 18px;
   margin: 0;
   padding-top: 32px;
+  position: relative;
 }
 .check-icon {
   width: 20px;
@@ -550,3 +551,4 @@
   justify-content: space-between;
   margin-top: 200px;
 }
+.sec4-price1: hover ~;
