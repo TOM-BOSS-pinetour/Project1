@@ -86,6 +86,8 @@
   gap: 5px;
   background-image: url(/1.png);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .imgs2 {
   border-radius: 5%;
@@ -95,6 +97,8 @@
   gap: 5px;
   background-image: url(/2.png);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .imgs3 {
   border-radius: 5%;
@@ -104,6 +108,8 @@
   gap: 5px;
   background-image: url(/3.png);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .imgs4 {
   border-radius: 5%;
@@ -113,6 +119,8 @@
   gap: 5px;
   background-image: url(/4.png);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .places {
   font-size: 40px;
@@ -551,4 +559,49 @@
   justify-content: space-between;
   margin-top: 200px;
 }
-.sec4-price1: hover ~;
+.Dev:hover {
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.Dev:hover > .papa > .budgets > div > .b1 {
+  background-color: #000;
+  color: white;
+}
+.Dev:hover > .papa > .budgets > div > .b2 {
+  background-color: #000;
+  color: white;
+}
+.Dev:hover > .papa > .budgets > div > .b3 {
+  background-color: black;
+  color: white;
+}
+
+.overlay {
+  border-radius: 40px;
+  background: rgba(41, 41, 41, 0.4);
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  /* display: none; */
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.imgs1:hover > .overlay {
+  /* display: block; */
+  opacity: 1;
+}
+.textwhite {
+  z-index: 1;
+}
+.imgs2:hover > .overlay {
+  /* display: block; */
+  opacity: 1;
+}
+.imgs3:hover > .overlay {
+  /* display: block; */
+  opacity: 1;
+}
+.imgs4:hover > .overlay {
+  /* display: block; */
+  opacity: 1;
+}
